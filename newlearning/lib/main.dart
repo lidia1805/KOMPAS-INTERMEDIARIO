@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newlearning/register.dart';
+import 'package:newlearning/formseries.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
 
 
       ),
-      home: Register(),
+      home: FormSeries(),
     );
   }
 }
